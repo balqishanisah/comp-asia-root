@@ -1,0 +1,9 @@
+@host = http://localhost:3000
+
+##
+GET {{host}}/comps
+Content-Type: application/json
+
+###
+PATCH {{host}}/comps/b0a91ba6-2ef8-41d5-8896-1cbf5511abdf
+Content-Type: application/json
